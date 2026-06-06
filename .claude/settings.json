@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(node:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(cat:*)",
+      "Bash(git status)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Bash(git push --force:*)"
+    ]
+  },
+  "env": {
+    "PROJECT": "change-order-analyzer",
+    "LANG_PRIMARY": "th",
+    "LANG_SECONDARY": "en",
+    "TECH_STACK": "nextjs,claude,supabase,tailwind",
+    "SUPABASE_PROJECT_ID": "jcclqupjibeoxeruhvig"
+  }
+}
